@@ -1,0 +1,21 @@
+﻿<Window x:Class="NotePad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotePad"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <ScrollBar x:Name="scrollBar" HorizontalAlignment="Left" Margin="490,10,0,0" VerticalAlignment="Top" Height="299"/>
+        <TextBox x:Name="teeeextBox" HorizontalAlignment="Left" Height="285" Margin="0,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="485"/>
+        <Menu x:Name="Fiiiile" Height="24" VerticalAlignment="Top" Background="White" HorizontalAlignment="Left" Width="476">
+            <MenuItem Background="#FFDADADA" Header="FileMenu"  Width="100" Height="20">
+                <MenuItem Background="#FFE4E4E4" Header="New File" Height="30" Width="200" BorderThickness="2,1,1,1" Margin="0" Click="MenuItem_Click_2"/>
+                <MenuItem Background="#FFDEDEDE" Header="Open File" Height="30" Width="200" Click="MenuItem_Click_3"/>
+                <MenuItem Background="#FFE0D9D9" Header="Save File" Height="30" Width="200" Click="MenuItem_Click_4"/>
+            </MenuItem>
+        </Menu>
+
+    </Grid>
+</Window>
